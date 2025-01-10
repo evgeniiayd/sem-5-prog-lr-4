@@ -4,7 +4,7 @@ from comparison_to_fib import FibonacchiList as FB
 
 def test_fib_1():
     gen = main.my_genn()
-    assert gen.send(3) == [1, 1, 2], "Тривиальный случай n = 3, список [0, 1, 1]"
+    assert gen.send(3) == [1, 1, 2], "Тривиальный случай n = 3, список [1, 1, 2]"
 
 
 def test_fib_2():
